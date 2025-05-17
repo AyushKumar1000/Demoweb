@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Orbitron', sans-serif;
+    background-color: #0f1115;
+    color: #f0f0f0;
+    background-image: url('tech-bg.jpg'); /* Replace with your background image */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px;
+    gap: 30px;
+    min-height: 100vh;
+  }
+  
+  /* Shared box styling */
+  .box {
+    background-color: rgba(28, 30, 35, 0.85);
+    border: 1px solid #2d2f36;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 255, 255, 0.05);
+    transition: transform 0.2s ease;
+  }
+  .box:hover {
+    transform: scale(1.01);
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.1);
+  }
+  
+  /* Left Sidebar */
+  .Top-Left {
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* ensures top alignment */
+  }
+  
+  /* Title inside left */
+  .head1-container {
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 15px;
+    color: #00ffff;
+  }
+  
+  /* Right Section */
+  .Top-Right {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: flex-start;
+  }
+  
+  .About {
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #00ffff;
+  }
+  
+  .Img img {
+    border: 2px solid #00ffff;
+    padding: 6px;
+    background-color: #0f1115;
+    margin-bottom: 15px;
+    border-radius: 6px;
+  }
+  
+  .Description {
+    max-width: 600px;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #d1d1d1;
+  }
+  
+  .Additional-Info {
+    text-align: left;
+    max-width: 600px;
+    background-color: #2a2d34;
+    padding: 15px;
+    border-radius: 8px;
+    border-left: 4px solid #00ffff;
+  }
+  
+  .Additional-Info h3 {
+    margin-bottom: 10px;
+    color: #00ffff;
+  }
+  
+  .Additional-Info ul {
+    padding-left: 20px;
+    list-style: disc;
+  }
+  
+  .Additional-Info ul li {
+    margin-bottom: 6px;
+    color: #d1d1d1;
+  }
